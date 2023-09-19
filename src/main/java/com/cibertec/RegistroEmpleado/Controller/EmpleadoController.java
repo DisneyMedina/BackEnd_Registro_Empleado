@@ -35,7 +35,7 @@ public class EmpleadoController {
         Map<String, Object> salida = new HashMap<>();
         List<String> lstMensajes = new ArrayList<>();
         salida.put("errores", lstMensajes);
-        obj.setEstado(0);
+        obj.setEstado(1);
         Calendar calendar = Calendar.getInstance();
         Date fechaActual = calendar.getTime();
         obj.setFechaRegistro(fechaActual);
